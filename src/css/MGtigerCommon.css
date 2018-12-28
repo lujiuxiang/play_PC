@@ -1,0 +1,379 @@
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+
+/* 首页最小宽度为1300px */
+
+.index {
+    min-width: 1300px;
+}
+
+
+/* 首页最小宽度为1300px */
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.banner ul li {
+    height: 372px;
+}
+
+.banner ul li>a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* play 开始  */
+
+.play {
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.play>div {
+    margin: 0 auto;
+    width: 1100px;
+    padding: 20px 0;
+    background-color: #222;
+}
+
+.play .p-top {
+    background-color: #222;
+}
+
+.play .p-top div {
+    width: 925px;
+    margin: 0 auto;
+}
+
+.play .p-top div:nth-of-type(1) {
+    height: 72px;
+}
+
+.play .p-top div::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.play .p-top div p {
+    float: left;
+    width: 43px;
+    text-align: center;
+    line-height: 72px;
+    cursor: pointer;
+    background-color: #a0a0a0;
+}
+
+.play .p-top div p:hover {
+    background-color: #f1ac17;
+}
+
+.play .p-top div p img {
+    vertical-align: middle;
+}
+
+.play .p-top div>.banner {
+    position: relative;
+}
+
+.play .p-top div>.banner>div {
+    margin: 0 auto;
+    width: 920px;
+}
+
+.play .p-top div>.banner>div>div {
+    padding: 0 !important;
+}
+
+.play .p-top div>.banner .swiper-slide {
+    width: 184px !important;
+    margin: 0;
+    height: 100%;
+    background-color: #2a2a2a;
+}
+
+.play .p-top div>.banner .swiper-slide:hover {
+    background: rgba(255, 255, 255, 0.11) !important;
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper {
+    margin: 0px auto;
+    width: 1120px !important;
+    height: 72px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper .swiper-slide>img {
+    display: inline-block;
+    margin-right: 1px;
+    float: left;
+    margin-left: 12px;
+    border: 0;
+    width: 72px;
+    height: 72px;
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper .swiper-slide>div {
+    display: inline-block;
+    float: left;
+    width: 53%;
+    height: 65%;
+    overflow: hidden;
+    text-align: left;
+    line-height: 1.3;
+    margin-top: 25px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper .swiper-slide>div span {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 0 0;
+    display: block;
+    line-height: 1;
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper .swiper-slide>div span:nth-of-type(2) {
+    color: #9e9e9e;
+    text-transform: uppercase;
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    text-indent: -13px;
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper .swiper-slide>a {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper .swiper-slide>a span {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .11);
+}
+
+.play .p-top div>.banner .swiper-container .swiper-wrapper .swiper-slide>a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: #000;
+}
+
+.play .p-top div>.banner .swiper-button-prev,
+.play .p-top div>.banner .swiper-button-next {
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    top: 0;
+    right: -37px;
+    width: 40px;
+    height: 72px;
+    background: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.11);
+}
+
+.play .p-top div>.banner .swiper-button-prev img,
+.play .p-top div>.banner .swiper-button-next img {
+    margin: 18px 0 0 8px;
+}
+
+.play .p-top div>.banner .swiper-button-prev {
+    left: -108%;
+}
+
+.play .p-top div>.banner .swiper-button-prev:hover,
+.play .p-top div>.banner .swiper-button-next:hover {
+    background-color: orange;
+}
+
+.footer .foot-top {
+    width: 1154px;
+}
+
+.banner {
+    position: relative;
+}
+
+.play .p-bottom .text {
+    height: 61px;
+    background: url('../../static/images/MGtiger-img/games/title-bg.png') no-repeat center;
+}
+
+.play .p-bottom .text ul {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 925px;
+    height: 100%;
+}
+
+.play .p-bottom .text ul li {
+    float: left;
+    padding-right: 5px;
+    height: 61px;
+    line-height: 61px;
+    color: #ffe49b;
+    font-size: 14px;
+}
+
+.play .p-bottom .text ul li span {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.play .p-bottom .text ul li .orange {
+    color: #fe9935;
+}
+
+.play .p-bottom .text ul li i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url('../../static/images/MGtiger-img/games/xiala.png') no-repeat 0 0;
+}
+
+.play .p-bottom .text ul li:hover {
+    color: #fe9935;
+}
+
+.play .p-bottom .text ul li:hover>i {
+    background: url('../../static/images/MGtiger-img/games/xiala.png') no-repeat -11px -101px;
+}
+
+.play .p-bottom .text ul .right {
+    float: right;
+}
+
+.play .p-bottom .text ul .right input {
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+    border: 1px solid #646464;
+    background-color: #1A0C04;
+    color: #ffe49b;
+    outline: none;
+    vertical-align: middle;
+}
+
+.play .p-bottom .text ul .right input:nth-of-type(2) {
+    text-indent: 0;
+    border: none;
+    width: 70px;
+    height: 30px;
+    background: url('../../static/images/MGtiger-img/games/btn-bg.png') no-repeat center;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.play .p-bottom {
+    padding: 20px 0;
+}
+
+.play .p-bottom .wrap {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.play .p-bottom .wrap .gamesList {
+    float: left;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 209px;
+    background: url('../../static/images/MGtiger-img/games/list-bg.png') no-repeat center;
+}
+
+.play .p-bottom .wrap .gamesList>span {
+    display: block;
+    height: 45px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffe49b;
+}
+
+.play .p-bottom .wrap .gamesList>a span {
+    display: block;
+    width: 155px;
+    height: 136px;
+    margin: 12px auto 0;
+    cursor: pointer;
+}
+
+.play .p-bottom .wrap .gamesList>a span img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.play .p-bottom .wrap .gamesList:hover>a span {
+    background-position: -145px 0 !important;
+}
+
+.play .p-bottom .listButton {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.play .p-bottom .listButton b {
+    display: inline-block;
+    margin: 0 5px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: white;
+    font-size: 12px;
+    background: url('../../static/images/MGtiger-img/games/listButton.png') no-repeat 0 0;
+    cursor: pointer;
+}
+
+.play .p-bottom .listButton b:hover {
+    color: #ffe49b;
+}
+
+.play .p-bottom .listButton span {
+    display: inline-block;
+    margin: 0 5px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    font-size: 12px;
+    background: url('../../static/images/MGtiger-img/games/listButton.png') no-repeat 0 0;
+}
+
+.play .p-bottom .listButton span i {
+    font-style: normal;
+}

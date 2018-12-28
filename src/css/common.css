@@ -1,0 +1,696 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 首页最小宽度为1300px */
+
+.index {
+    min-width: 1300px;
+    font-family: Microsoft YaHei;
+}
+
+
+/* 首页最小宽度为1300px */
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+/* title  开始 */
+
+.y-title {
+    background: url("../../static/images/title/title-bg.png") no-repeat #000000;
+}
+
+.y-title>div {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 134px;
+}
+
+.y-title .img1 {
+    padding-top: 30px;
+    width: 270px;
+}
+
+.y-title .img2 {
+    margin-left: 47px;
+    height: 60px;
+}
+
+.y-title .login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 134px;
+    line-height: 134px;
+}
+
+.y-title .login li {
+    float: left;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.y-title .login li::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.y-title ul li input {
+    width: 170px;
+    height: 35px;
+    border: 1px solid #919191;
+    border-radius: 3px;
+    outline: none;
+    text-indent: 35px !important;
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+    text-indent: 5px;
+}
+
+.y-title ul li:nth-of-type(1) input {
+    background: url("../../static/images/title/user.png") no-repeat 6px 6px/cover;
+    background-size: 20px 20px;
+}
+
+.y-title ul li:nth-of-type(2) input {
+    background: url("../../static/images/title/pass.png") no-repeat 6px 6px/cover;
+    background-size: 20px 20px;
+}
+
+.y-title .login li input::-webkit-input-placeholder {
+    text-indent: 35px;
+    color: #919191;
+}
+
+.y-title .login li .submit {
+    color: #fff;
+    font-size: 12px;
+    background-color: #9a8660;
+    cursor: pointer;
+}
+
+.y-title .login li a {
+    padding: 8px 18px;
+    width: 100%;
+    height: 26px;
+    border-radius: 3px;
+    border-top: 1px solid transparent;
+    color: #fff;
+    background-color: #9a8660;
+}
+
+.y-title .login .shiwan p {
+    height: 30px;
+    margin: -10px 5px 0px 5px;
+}
+
+.y-title .login .shiwan a {
+    padding: 0;
+    background: none;
+}
+
+.y-title .login .shiwan p:nth-of-type(1) a {
+    color: red;
+}
+
+.y-title .login li:nth-of-type(5) a {
+    background-color: red;
+}
+
+.y-title .login li:nth-of-type(6) a {
+    background-color: #d79344;
+}
+
+
+/* 登陆后界面 */
+
+.y-title .logintwo {
+    height: 30px;
+    margin-top: 70px;
+    line-height: 30px;
+}
+
+.y-title .login .logined {
+    width: 568px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.logined .colorOrange {
+    color: #c8a900;
+    font-style: normal;
+}
+
+.y-title .login .logined>.men-info {
+    float: left;
+    height: 100%;
+    color: #88837d;
+}
+
+.y-title .login .logined>.men-info>div {
+    position: relative;
+    float: right;
+    text-align: center;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.y-title .login .logined>.men-info>div .money {
+    display: none;
+    position: absolute;
+    height: 570px;
+    top: 30px;
+    left: 0;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.y-title .login .logined>.men-info>div:hover .money {
+    display: block;
+}
+
+.y-title .login .logined>.men-info>div .money ul {
+    width: 160px;
+}
+
+.y-title .login .logined>.men-info>div .money ul li {
+    display: block;
+    margin: 0;
+    padding-left: 15px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #9E9E9E;
+    border-top: 1px solid #C0C0C0;
+    white-space: nowrap;
+    text-align-last: left;
+    box-sizing: border-box;
+    background-color: #B4B4B4;
+}
+
+.y-title .login .logined>.men-info>div .money ul li span {
+    color: #666;
+}
+
+.y-title .login .logined>.men-info>div .money ul li i {
+    padding-left: 5px;
+    font-style: normal;
+    color: #333;
+}
+
+.y-title .login .logined>.men-list {
+    float: left;
+    width: 370px;
+    height: 100%;
+    color: #88837d;
+}
+
+.y-title .login .logined>.men-list a {
+    padding: 0 3px;
+    color: #88837d;
+    background: none;
+    cursor: pointer;
+}
+
+.y-title .login .logined>.men-list .unread {
+    color: #fff;
+}
+
+.y-title .login .logined>.men-list .colorOrange {
+    color: #c8a900;
+}
+
+.y-title .login .logined>.men-list .unread i {
+    font-style: normal;
+}
+
+.y-title .login .logined>.men-list a:hover {
+    text-decoration: underline;
+}
+
+
+/* 登陆后界面 */
+
+
+/* title 结束 */
+
+
+/* 顶部导航 开始 */
+
+.title-nav {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 70px;
+    background: rgba(37, 34, 35, 0.5);
+}
+
+.title-nav ul {
+    display: flex;
+    position: relative;
+    top: -1px;
+    z-index: 99;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.title-nav ul li {
+    flex: 1;
+    position: relative;
+    float: left;
+    margin-top: 1px;
+    height: 100%;
+    z-index: 2;
+}
+
+.title-nav ul li:nth-of-type(1) {
+    background: url("../../static/images/title-nav/nav-hover.png") no-repeat;
+}
+
+.title-nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 16px 0;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.title-nav ul li a em {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.title-nav ul li a span {
+    color: #ddd3b7;
+    font-size: 16px;
+}
+
+.title-nav ul li a i {
+    display: block;
+    font-style: normal;
+    color: #fff;
+    font-size: 13px;
+}
+
+.title-nav>ul>li:hover {
+    background: url("../../static/images/title-nav/nav-hover.png") no-repeat;
+}
+
+.title-nav ul li:hover>a span {
+    color: #fff;
+}
+
+.title-nav ul li:hover>a i {
+    color: #fff;
+}
+
+.title-nav ul li:nth-of-type(1)>a {
+    padding: 24px 0;
+    color: #ddd3b7;
+}
+
+.title-nav ul li:nth-of-type(1):hover>a {
+    padding: 24px 0;
+    color: #fff;
+}
+
+
+/* .title-nav ul li:nth-of-type(1) a::after{
+  display: none;
+} */
+
+
+/* 二级菜单 */
+
+.title-nav ul li:nth-of-type(1)>ul {
+    display: none;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    width: 1075px;
+    height: auto;
+    border: 1px solid #e5b17d;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title-nav ul li:nth-of-type(1):hover>ul {
+    display: block;
+    animation: first 0.5s;
+    position: absolute;
+    top: 70px;
+}
+
+.title-nav ul li:nth-of-type(1)>ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li {
+    /* display: none; */
+    width: 16%;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li div {
+    font-size: 16px;
+    color: #a26b0b;
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li p a {
+    display: block;
+    float: left;
+    width: 50%;
+    line-height: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li p a span {
+    color: red;
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li p a:hover {
+    color: red;
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li p::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li p em a {
+    width: 100%;
+    padding-right: 24px;
+    font-style: normal;
+    text-align: right;
+}
+
+.title-nav ul li:nth-of-type(1)>ul>li:nth-of-type(1) {
+    margin: 0;
+    background: none;
+}
+
+.title-nav ul li>.secondMenu-wrap {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: -10px;
+    padding: 0 10px;
+    width: 130px;
+    height: auto;
+    box-sizing: border-box;
+    transition: 1s;
+    border: 1px solid #e5b17d;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title-nav ul li:hover .secondMenu-wrap {
+    display: block;
+    margin-top: 72px;
+    animation: first 0.5s;
+    transform-origin: center 0;
+}
+
+@keyframes first {
+    0% {
+        transition: linear;
+        transform: scale(0.1);
+    }
+    100% {
+        transition: linear;
+        transform: scale(1);
+    }
+}
+
+.title-nav ul li>ul .secondMenu {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 30px;
+    background: none;
+}
+
+.title-nav ul li>ul>.img {
+    position: absolute;
+    top: -6px;
+    left: 55px;
+}
+
+.title-nav ul li>ul .secondMenu p {
+    position: relative;
+    margin: 0;
+    height: 100%;
+}
+
+.title-nav ul li>ul .secondMenu p img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.title-nav ul li>ul .secondMenu p img:last-child {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: auto;
+}
+
+.title-nav ul li>ul .secondMenu p a {
+    display: inline;
+    padding: 0;
+    font-size: 12px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.title-nav ul li>ul .secondMenu p a:hover {
+    color: #9e8342;
+}
+
+.title-nav ul li>ul .secondMenu p a::after {
+    display: none;
+}
+
+
+/* 二级菜单 */
+
+
+/* 顶部导航 结束 */
+
+
+/* banner 开始 */
+
+.banner ul li {
+    position: relative;
+    width: 100%;
+    height: 733px;
+}
+
+.banner ul li .bannerWrap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner ul li .bannerWrap>div {
+    height: 100%;
+}
+
+.banner ul li .bannerWrap>div .swiper-slide {
+    width: 1920px;
+    position: relative;
+    height: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+}
+
+.banner ul li .bannerWrap>div .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner ul li .bannerWrap>div .swiper-slide a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner ul li .bannerWrap .swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+.swiper-pagination-bullet {
+    margin-right: 5px !important;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: #e6ac29 !important;
+}
+
+.banner ul li .newMessage {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner ul li .newMessage p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.banner ul li .newMessage p i {
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.banner ul li div p marquee {
+    float: right;
+    width: 90%;
+}
+
+.banner ul li div p img {
+    width: 18px;
+    height: 14px;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-top: -3px;
+}
+
+
+/* banner 结束 */
+
+
+/* 底部 开始 */
+
+.footer {
+    background-color: #302720;
+}
+
+.footer .foot-top {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1200px;
+    height: 76px;
+}
+
+.footer .foot-top a:nth-of-type(1) {
+    display: block;
+    float: left;
+    width: 204px;
+    height: 100%;
+}
+
+.footer .foot-top a span {
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer .foot-top a i {
+    display: inline-block;
+    font-style: normal;
+    color: #8e9daa;
+}
+
+.footer .foot-top a img {
+    float: left;
+    margin-left: 20px;
+    width: 32px;
+    height: 40px;
+}
+
+.footer .foot-top a div {
+    float: left;
+    margin: 5px 5px;
+    width: 120px;
+    line-height: 1.5em;
+}
+
+.footer .foot-top .footerNum {
+    display: block;
+    float: left;
+    width: 190px;
+}
+
+.footer .foot-top .footerNum img {
+    margin: 0 10px 0 15px;
+}
+
+.footer .foot-top .footerNum p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer .foot-top .footerNum span {
+    color: #8e9daa;
+}
+
+.footer .foot-bot {
+    height: 80px;
+    background-color: #000;
+}
+
+.footer .foot-bot .foot-text {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    color: #88837d;
+}
+
+.footer .foot-bot .foot-text p {
+    padding-bottom: 10px;
+}
+
+.footer .foot-bot .foot-text a {
+    color: #88837d;
+    padding: 0 10px;
+}
+
+.footer .foot-bot .foot-text a:hover {
+    color: #fff;
+}
+
+.footer .foot-bot .foot-text span {
+    font-size: 12px;
+}
+
+
+/* 底部 结束 */

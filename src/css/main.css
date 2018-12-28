@@ -1,0 +1,1415 @@
+/* common  样式*/
+
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+html {
+    font-family: sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    /* 1 */
+    vertical-align: baseline;
+    /* 2 */
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+pre {
+    overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+    margin: 0;
+    /* 3 */
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type="button"],
+
+/* 1 */
+
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    box-sizing: content-box;
+    /* 2 */
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    border: 0;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+textarea {
+    overflow: auto;
+}
+
+optgroup {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.clear_fix {
+    display: block;
+    zoom: 1;
+}
+
+.clear_fix:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* common  样式*/
+
+
+/* layout 样式 */
+
+body {
+    background: #272a31;
+    font-size: 12px;
+    padding: 0;
+}
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    background-color: #1D1D1D;
+}
+
+#MALogo {
+    background: url("../../static/images/memberCenter/titleLogo.png") no-repeat scroll 30px center;
+    float: left;
+    height: 94px;
+    margin: 1px 0 0 3px;
+    width: 388px;
+}
+
+#MATime {
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 275px;
+    color: white;
+}
+
+#MABank {
+    width: 143px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    right: 60px;
+    top: 40px;
+}
+
+#timepic {
+    height: 22px;
+    left: 20px;
+    position: absolute;
+    top: 7px;
+    width: 22px;
+}
+
+.time {
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    top: 5px;
+    left: 44px;
+    position: absolute;
+    text-align: left;
+    width: auto;
+}
+
+#MAContent {
+    width: 100%;
+    min-height: 400px;
+    background: #1d1d1d;
+}
+
+#sidebar-mem {
+    height: 38px;
+    line-height: 38px;
+}
+
+#sidebar-msg {
+    height: 40px;
+    line-height: 40px;
+}
+
+.account-bg {
+    display: inline;
+    float: left;
+    margin-left: 1px;
+    width: 248px;
+}
+
+.account-right {
+    float: left;
+    width: 950px;
+    padding-bottom: 45px;
+    background: #fff;
+    min-height: 600px;
+}
+
+#MAFoot {
+    color: #fff;
+    height: 50px;
+    padding: 20px 30px 0 0;
+    text-align: right;
+    width: 1170px;
+    margin: 0px auto;
+    background-color: #1d1d1d;
+}
+
+table.mmain {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    width: 100%;
+}
+
+table.mmain th {
+    background: #dfdfdf none repeat scroll 0 0;
+    color: #333;
+    font-weight: normal;
+    height: 1.8em;
+    text-align: center;
+}
+
+table.mmain td {
+    background: #fff none repeat scroll 0 0;
+    color: #666;
+    line-height: 1.5em;
+    padding: 6px 8px;
+}
+
+table.MMain,
+table.mmain th,
+table.mmain td {
+    padding: 5px 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table.MNoBorder,
+table.MNoBorder th,
+table.MNoBorder td {
+    background: none repeat scroll 0 0;
+    border: medium none;
+}
+
+table.mmain th.MContent,
+table.mmain td.MContent {
+    text-align: left;
+    word-break: break-all;
+}
+
+table.mmain td.MNumber {
+    text-align: right;
+}
+
+table.mmain td.MNotice {
+    color: #555;
+}
+
+table.mmain td.MBgcolor {
+    background: #600 none repeat scroll 0 0;
+    color: #fff;
+}
+
+table.mmain td.MBgcolor2 {
+    background: #006 none repeat scroll 0 0;
+    color: #fff;
+}
+
+table.mmain tr.MColor1 {}
+
+table.mmain tr.MColor2 {}
+
+table.mmain tbody td.mouseenter {
+    color: #000;
+}
+
+.sidebar div,
+.sidebar a {
+    color: #fff;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 40px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.ulList ul li a.current {
+    background-position: left bottom;
+    color: #000;
+}
+
+.mgametype.heise>a,
+#mnavlv2>a {
+    color: #666;
+}
+
+.mgametype.heise>a:visited {
+    color: #666;
+}
+
+
+/* layout 样式 */
+
+
+/* left-slide 样式 */
+
+#welcome {
+    color: #FFFFCC;
+    font-size: 14px;
+    font-weight: bold;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 258px;
+}
+
+#welcom {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 220px;
+}
+
+.ulList ul {
+    width: 100%;
+    color: #ffffff;
+    background: #1d1d1d;
+}
+
+.ulList li:first-child {
+    background: url(../../static/images/memberCenter/hyzq.png) no-repeat 70px center #313131;
+    background-size: 15px;
+}
+
+.ulList li:nth-child(6) {
+    background: url(../../static/images/memberCenter/xxgg.png) no-repeat 70px center #313131;
+    background-size: 15px;
+}
+
+.ulList li {
+    width: 100%;
+    color: #ffffff;
+    background: #1d1d1d;
+    cursor: pointer
+}
+
+.ulList ul li a {
+    color: #d3d3d3;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+#sidebar-mem a,
+#sidebar-msg a {
+    background: none;
+    height: 38px;
+    line-height: 38px;
+}
+
+.ulList ul li:nth-of-type(2) a {
+    background: url("../../static/images/memberCenter/my.png") no-repeat 90px 6px/20px 20px;
+    text-indent: 35px;
+}
+
+.ulList ul li:nth-of-type(3) a {
+    background: url("../../static/images/memberCenter/bank.png") no-repeat 90px 6px/20px 20px;
+    text-indent: 35px;
+}
+
+.ulList ul li:nth-of-type(4) a {
+    background: url("../../static/images/memberCenter/friend.png") no-repeat 90px 6px/20px 20px;
+    text-indent: 35px;
+}
+
+.ulList ul li:nth-of-type(5) a {
+    background: url("../../static/images/memberCenter/recode.png") no-repeat 90px 6px/20px 20px;
+    text-indent: 35px;
+}
+
+.ulList ul li:nth-of-type(7) a {
+    background: url("../../static/images/memberCenter/msg.png") no-repeat 90px 6px/20px 20px;
+    text-indent: 35px;
+}
+
+.ulList ul li:nth-of-type(8) a {
+    background: url("../../static/images/memberCenter/self.png") no-repeat 90px 6px/20px 20px;
+    text-indent: 35px;
+}
+
+.ulList ul li:nth-of-type(9) a {
+    background: url("../../static/images/memberCenter/card.png") no-repeat 90px 6px/20px 20px;
+    text-indent: 35px;
+}
+
+
+/* left-slide 样式 */
+
+
+/* right-slide 样式 */
+
+.wid {
+    width: 92%;
+    margin: 0px auto;
+}
+
+#MNav {
+    height: 48px;
+    position: relative;
+}
+
+.subMenu li {
+    width: 102px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #3a3a3a
+}
+
+.subMenu li a {
+    width: 100px;
+    color: #ffffcc;
+    height: 100%;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#MNav .navSeparate {
+    height: 100%;
+    position: absolute;
+    top: 2px;
+    width: 2px;
+}
+
+.imformation {
+    background: url("../../static/images/memberCenter/hy.png") no-repeat scroll 182px 15px;
+    background-size: 150px;
+    color: #504c4b;
+    height: 170px;
+}
+
+.info-img {
+    background: url("../../static/images/memberCenter/wdtx.png") no-repeat scroll 0 0;
+    background-size: 80% 80%;
+    float: left;
+    height: 139px;
+    margin: 17px 0 0 43px;
+    width: 142px;
+}
+
+.info-content {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dddddd;
+    float: left;
+    margin-top: 23px;
+    padding-top: 37px;
+    width: 550px;
+}
+
+.info-title {
+    color: #504c4b;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-title-acname {
+    color: #6a8a8c;
+    font-size: 20px;
+}
+
+.info-txt {
+    line-height: 24px;
+}
+
+.info-sec-title {
+    color: #6b8a8c;
+    font-size: 15px;
+    height: 22px;
+    letter-spacing: 2px;
+    line-height: 17px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.info-sec-txt {
+    border-right: 4px solid #6b8a8c;
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.info-title-line {
+    background: #6b8a8c none repeat scroll 0 0;
+    float: right;
+    height: 16px;
+    margin: 2px 0 0 3px;
+    width: 3px;
+}
+
+.info-table-area {
+    margin: 0 auto 10px;
+    padding-bottom: 16px;
+    width: 705px;
+    clear: both;
+}
+
+.info-table-area table {
+    border: medium none;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.game-item {
+    width: 176px;
+    height: 62px;
+    float: left;
+}
+
+.game-item {
+    text-align: center;
+}
+
+.game-name {
+    color: #fff;
+    height: 31px;
+    font-size: 13px;
+    height: 31px;
+    line-height: 31px;
+    background: #1d1d1d;
+}
+
+.game-balance {
+    height: 31px;
+    line-height: 31px;
+    background: #ddd;
+}
+
+.game-name {
+    border-right: 1px solid #ccc;
+}
+
+h2.M-sub-title {
+    background: url("../../static/images/memberCenter/yxtz.png") no-repeat scroll 0 50%;
+    color: #000000;
+    height: 23px;
+    line-height: 23px;
+    margin: 5px;
+    padding-left: 20px;
+    background-size: 14px;
+    font-size: 15px;
+}
+
+.game-log {
+    width: 352px;
+    text-align: center;
+    float: left;
+}
+
+.log-data {}
+
+.slideEffect-btn {
+    background: url("../../static/images/memberCenter/btn07.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: right;
+    height: 16px;
+    margin: 9px 10px 0 14px;
+    width: 15px;
+}
+
+.log-close2 {
+    cursor: pointer;
+    width: 15px;
+    height: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.log-show {
+    width: 344px;
+    background: #b6bebd none repeat scroll 0 0;
+    border: 4px solid #939f9f;
+    position: relative;
+    color: black;
+}
+
+.log-active {
+    background: #748282 none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.5s ease 0s;
+}
+
+
+/*
+
+  投注 咨询
+
+*/
+
+#mnavlv2 {
+    color: #004892;
+    line-height: 30px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+#mnavlv2 span {
+    cursor: pointer;
+}
+
+#mmaindata {
+    padding: 0 6px;
+    background: #fff;
+}
+
+.mcontrolnav {
+    padding: 10px;
+}
+
+#lotteryId {
+    margin-left: 8px;
+}
+
+.scy-content {
+    margin: 0 auto;
+    width: 870px;
+}
+
+
+/*
+    安全设置  登录密码
+*/
+
+.scy-link-area {
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    padding-left: 60px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.secrity-setting .scy-link-area:hover {
+    background-position: center bottom;
+    color: #50505e;
+}
+
+.scy-link-txt {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.scy-link-txt img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.scy-link-txt p {
+    color: #a5a5aa;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.secrity-setting .scy-change-psd {}
+
+.secrity-setting .scy-change-dw-psd {}
+
+.secrity-setting .scy-link-area:hover {
+    background-position: center bottom;
+    color: #50505e;
+}
+
+.pwd-title-area {
+    height: 36px;
+}
+
+.pwd-input-content {
+    padding-bottom: 30px;
+}
+
+.pwd-title-txt {
+    background: url("../../static/images/memberCenter/xgmmb.png") no-repeat scroll left center;
+    color: #56606c;
+    float: left;
+    font-size: 16px;
+    height: 38px;
+    line-height: 35px;
+    margin: 0px 0 9px 28px;
+    padding-left: 34px;
+}
+
+.pwd-placeholder-txt {
+    color: #fff;
+    left: 60px;
+    position: absolute;
+    top: 9px;
+    width: 185px;
+    z-index: 1;
+}
+
+.pwd-input-unit {
+    display: block;
+    margin: 0 auto 6px;
+    position: relative;
+    width: 190px;
+}
+
+.pwd-new {
+    /* margin-bottom: 45px; */
+}
+
+#forgetPwd {}
+
+#chang-psd-dialog {
+    padding: 0;
+}
+
+.pwd-input {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    border-bottom: 1px solid #000000;
+    color: #b6b6b6;
+    height: 32px;
+    line-height: 32px;
+    outline: medium none;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.pwdefault {
+    background: #808080 none repeat scroll 0 0;
+    color: #808080;
+}
+
+.top_testresult {
+    font-size: 12px;
+    margin: 0 0 2px 22px;
+    padding-left: 55px;
+    text-align: center;
+    width: 232px;
+}
+
+.top_testresult span {
+    display: inline-block;
+    height: 4px;
+    margin: 0 2px;
+    width: 40px;
+}
+
+.top_testresult div {
+    padding-right: 27px;
+    text-align: right;
+}
+
+.pwd-info-area {
+    color: #504c4c;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pwd-btn {
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    outline: medium none;
+    padding: 0;
+    width: 115px;
+}
+
+.pwd-btn:hover {
+    background-position: center bottom;
+}
+
+.pwd-btn-submit {
+    background: #e60012;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.pwd-btn-reset {}
+
+.pwd-btn-wrap {
+    margin: 15px auto 5px;
+    width: 115px;
+}
+
+#chg-DWPassword {
+    margin: 0 auto;
+    width: 373px;
+    height: 242px;
+}
+
+.chgPasswd-Title-area {
+    height: 84px;
+    width: 373px;
+}
+
+.chgPwd-title-txt {
+    color: #56606c;
+    float: left;
+    font-size: 16px;
+    line-height: 39px;
+    margin: 21px 0 9px 28px;
+    padding-left: 35px;
+}
+
+.psw-area {
+    height: 35px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.psw-area.addpsw {
+    margin: 35px 0 45px;
+}
+
+.btn-confirm-wrap {
+    text-align: center;
+}
+
+.select-area {
+    display: inline-block;
+    height: 34px;
+    padding-left: 47px;
+    width: 201px;
+}
+
+.select-new {}
+
+.select-psw {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    height: 20px;
+    margin: 8px 0 0 2px;
+    outline: medium none;
+    padding-left: 10px;
+    text-align: center;
+    width: 45px;
+}
+
+.select-psw option {
+    color: #000;
+}
+
+.select-psw.select-4 {
+    position: relative;
+    left: -5px;
+}
+
+
+/*
+   银行 交易
+*/
+
+table.MMain {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+table.MMain th {
+    background: #dfdfdf none repeat scroll 0 0;
+    color: #333;
+    font-weight: normal;
+    height: 1.8em;
+    text-align: center;
+}
+
+table.MMain3 th {
+    background: #dcdcdc none repeat scroll 0 0;
+    color: #333;
+    font-weight: normal;
+    height: 2.4em;
+    text-align: center;
+}
+
+table.MMain td {
+    background: #fff none repeat scroll 0 0;
+    color: #666;
+    line-height: 1.5em;
+    padding: 6px 0;
+    text-align: left;
+}
+
+table.MMain td .star {
+    color: #F00;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+table.MMain3 td {
+    background: #fff none repeat scroll 0 0;
+    color: #a8a8a8!important;
+    line-height: 1.5em;
+    padding: 6px 8px;
+}
+
+table.MMain2 {
+    border: none!important
+}
+
+table.MMain2 td {
+    border: none!important
+}
+
+table.MMain3 {
+    border: none!important
+}
+
+table.MMain3 td {
+    border: 1px solid #ccc!important;
+    border-bottom: 1px solid #828282!important
+}
+
+table.MMain,
+table.MMain th,
+table.MMain td {
+    border: 1px solid #ccc;
+}
+
+table.MNoBorder,
+table.MNoBorder th,
+table.MNoBorder td {
+    background: none repeat scroll 0 0;
+    border: medium none;
+}
+
+table.MMain th.MContent,
+table.MMain td.MContent {
+    text-align: left;
+    word-break: break-all;
+}
+
+table.MMain td.MNumber {
+    text-align: right;
+}
+
+table.MMain td.MNotice {
+    color: #555;
+}
+
+table.MMain td.MBgcolor {
+    background: #600 none repeat scroll 0 0;
+    color: #fff;
+}
+
+table.MMain td.MBgcolor2 {
+    background: #006 none repeat scroll 0 0;
+    color: #fff;
+}
+
+table.MMain tr.MColor1 {}
+
+table.MMain tr.MColor2 {}
+
+table.MMain tbody td.mouseenter {
+    color: #000;
+}
+
+.account-balance .MSubTitle {
+    color: #444;
+    height: 30px;
+    line-height: 30px;
+    font-size: 100%;
+    position: relative;
+    padding-left: 16px;
+    display: inline-block;
+    float: left;
+}
+
+.MSubTitle2 {
+    font-size: 100%;
+    position: relative;
+    display: inline-block;
+    float: right;
+    background: url(../../static/images/memberCenter/qhsz.png);
+    height: 30px;
+    line-height: 30px;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 1px 10px;
+}
+
+.transfer-funds {
+    border: 1px solid #ddd;
+}
+
+.transfer-funds .MSubTitle {
+    color: #444;
+    height: 18px;
+    font-size: 100%;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.transfer-funds fieldset {
+    border: none;
+}
+
+.transfer-field>div {
+    padding: 5px 0;
+}
+
+.transfer-field>div select,
+.transfer-field>div input {
+    padding: 5px 0;
+}
+
+#SubmitForm {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    height: 28px;
+    line-height: 28px;
+    width: 70px;
+    margin: 0px 0 0 69px
+}
+
+#SubmitForm:hover {
+    background-position: 0 bottom;
+}
+
+.transfer-funds .MSubTitle {
+    margin: 0;
+}
+
+.listh1 {
+    height: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 140px;
+    line-height: 30px;
+    display: inline-block;
+    box-shadow: 0px 2px 1px 1px #d1d1d1;
+    cursor: pointer;
+}
+
+.listh1 img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.jryx {
+    float: right;
+    border: 1px solid;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #1d1d1d;
+    cursor: pointer;
+}
+
+
+/* right-slide 样式 */
+
+
+/* bodog_setBank 样式 */
+
+.cashierWrapper {
+    background: none repeat scroll 0 0;
+    color: #111111;
+    height: auto !important;
+    /*margin: 0 auto;*/
+    min-height: 450px;
+    /*padding: 10px 20px;*/
+    width: 580px;
+}
+
+.row-fluid {
+    width: 100%;
+}
+
+.row-fluid:before,
+.row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.row-fluid:after {
+    clear: both;
+}
+
+.row-fluid [class*="span"] {
+    -moz-box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-left: 2.12766%;
+    min-height: 30px;
+    width: 100%;
+}
+
+.row-fluid .span8 {
+    width: 100%;
+}
+
+.row-fluid .offset2 {
+    margin-left: 0;
+}
+
+.offset2 {
+    margin-left: 180px;
+}
+
+.span8 {
+    width: 620px;
+}
+
+.column,
+.columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 5px;
+    position: relative;
+}
+
+#DepositMethod {
+    height: auto !important;
+    width: 100%;
+}
+
+#DepositMethod h1 {
+    border-bottom: medium none;
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.article p {
+    margin: 10px 0;
+}
+
+#DepositMethod li img {
+    height: 60px;
+    width: 110px;
+    margin: 20px;
+}
+
+.selected-payment-logo {
+    border-color: #696866 !important;
+}
+
+#DepositMethod li {
+    display: inline;
+    float: left;
+    margin-bottom: 13px;
+    /*  margin-right: 10px; */
+}
+
+#DepositMethod {
+    height: auto !important;
+    width: 100%;
+}
+
+#note p {
+    line-height: 25px;
+}
+
+
+/* bodog_setBank 样式 */
+
+
+/* black 样式 */
+
+
+/**
+*/
+
+#welcome {
+    background: url("../../static/images/memberCenter/ydh.jpg") repeat-x scroll left top;
+}
+
+#MNav {
+    background: url("../../static/images/memberCenter/ydh.jpg") repeat-x scroll left top;
+}
+
+.gsdgsado {
+    background: #000;
+    color: #fff;
+    width: 64px;
+    border: none;
+    height: 24px;
+    line-height: 24px;
+}
+
+.gsdgsado2 {
+    background: none;
+    color: #000;
+    width: 64px;
+    border: none;
+    height: 24px;
+    border: 1px solid #000
+}
+
+.gsdgsado1 {
+    color: #fff;
+    width: 100px;
+    border: none;
+    height: 24px;
+    line-height: 24px;
+}
+
+
+/* black 样式 */

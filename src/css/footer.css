@@ -1,0 +1,216 @@
+@charset "utf-8";
+.contentWrap {
+    position: relative;
+    height: 372px;
+}
+
+.title-nav {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background: rgba(55, 45, 38, 0.66);
+    border-top: 1px solid rgba(49, 49, 49, 0.66);
+    border-bottom: 1px solid rgba(49, 49, 49, 0.66);
+    z-index: 999;
+}
+
+.contentWrap>ul,
+.contentWrap>ul li,
+.contentWrap>ul li>a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* banner下面游戏 开始 */
+
+
+/* 左边aslide部分 开始 */
+
+.refisterWrap {
+    padding: 20px 0;
+    background-color: #222;
+}
+
+.refister {
+    margin: 0 auto;
+    width: 1020px;
+    background: #222;
+}
+
+.refister .left {
+    float: left;
+    width: 304px;
+}
+
+.refister .left>ul {
+    display: block;
+    padding: 244px 0 45px;
+    margin-bottom: 10px;
+    background: #2f2f2f url('../../static/images/aboutUs-img/nav-bg.png') -40px 0px no-repeat;
+}
+
+.refister .left>ul li {
+    padding: 0 24px;
+}
+
+.refister .left>ul li a {
+    display: block;
+    position: relative;
+    height: 79px;
+    line-height: 79px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.33);
+    cursor: pointer;
+}
+
+.refister .left>ul li a::after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: url('../../static/images/aboutUs-img/line.png') no-repeat center;
+}
+
+.refister .left>ul li a:hover {
+    background-position: -30px -84px !important;
+}
+
+.refister .left>ul li span {
+    margin: 8px 17px 0 0;
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.refister .left>ul li i {
+    display: inline-block;
+    line-height: 57px;
+    font-style: normal;
+}
+
+.refister .left>ul li:hover>a i {
+    color: #fff;
+}
+
+.refister .left .bot-bg {
+    height: 135px;
+    background: #2f2f2f url('../../static/images/aboutUs-img/logo.png') center 25px no-repeat;
+}
+
+
+/* 左边aslide部分 结束 */
+
+.right {
+    float: right;
+    width: 690px;
+    padding-top: 40px;
+    border: 1px solid #464646;
+}
+
+.right .txt {
+    width: 655px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.right .txt span {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FF6600;
+}
+
+.right .txt span::before {
+    content: '————●';
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.right .txt span::after {
+    content: '●————';
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.right .txt p {
+    font-size: 12px;
+    color: #ccc;
+    text-indent: 2em;
+    line-height: 2;
+}
+
+.right .partner>span {
+    text-align-last: left;
+}
+
+.right .partner span::before {
+    content: '';
+}
+
+.right .partner span::after {
+    content: '';
+}
+
+.right .txt .tal {
+    text-align: left;
+    font-size: 14px;
+}
+
+.right .txt .tal::before {
+    content: '';
+}
+
+.right .txt .tal::after {
+    content: '';
+}
+
+
+/* banner下面游戏 结束 */
+
+
+/* 最新消息 开始 */
+
+.newMessage {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.newMessage p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.newMessage p i {
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.newMessage p marquee {
+    float: right;
+    width: 90%;
+}
+
+.newMessage p img {
+    margin-left: 40px;
+    margin-top: -3px;
+    width: 18px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+
+/* 最新消息 结束 */

@@ -1,0 +1,188 @@
+.lotteryGames {
+    min-width: 1280px;
+}
+
+.yellow {
+    color: yellow !important;
+}
+
+.titleSelected {
+    color: yellow !important;
+    background: url('../../static/images/lotteryGames/nav_hover.png') no-repeat -3px -10px/cover;
+}
+
+block {
+    display: block !important;
+}
+
+.none {
+    display: none !important;
+}
+
+
+/* 顶部导航 开始 */
+
+.lo-titleNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #133A83;
+}
+
+.lo-titleNav a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.lo-titleNav a:hover {
+    color: yellow;
+}
+
+.lo-titleNav a::after {
+    position: absolute;
+    right: 0;
+    content: "|";
+    color: #ccc;
+}
+
+
+/* 顶部导航 结束 */
+
+
+/* 顶部导航的二级菜单 开始 */
+
+.lo-titleNavSub {
+    background-color: #4987D7;
+}
+
+.lo-titleNavSub>div {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    height: 30px;
+}
+
+.lo-titleNavSub>div a {
+    position: relative;
+    padding: 5px 14px;
+    color: #fff;
+}
+
+.lo-titleNavSub>div a::after {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    content: "|";
+    color: #ccc;
+}
+
+
+/* 顶部导航的二级菜单 结束 */
+
+
+/* 游戏部分 开始 */
+
+
+/* 左侧导航 */
+
+.lo-content {
+    background: url('../../static/images/lotteryGames/side_bg.jpg') no-repeat left top #2f6ed7;
+}
+
+.lo-left {
+    float: left;
+    width: 190px;
+}
+
+.lo-left a {
+    display: block;
+    margin-top: 4px;
+    margin-left: 6px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background: url('../../static/images/lotteryGames/left_bg.png') no-repeat scroll 0 0;
+}
+
+.lo-left div {
+    padding: 10px;
+}
+
+.lo-left span {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+
+.lo-left i {
+    display: inline-block;
+    margin-right: 10px;
+    width: 70px;
+    text-align: right;
+    color: #36639d;
+    font-style: normal;
+}
+
+
+/* 左侧导航 结束 */
+
+
+/* 右侧游戏 开始 */
+
+.lo-right {
+    float: left;
+}
+
+
+/* 右侧游戏 结束 */
+
+
+/* 游戏部分 结束 */
+
+
+/* 最新消息 开始 */
+
+.newMessage {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.newMessage p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.newMessage p i {
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.newMessage p marquee {
+    float: right;
+    width: 90%;
+}
+
+.newMessage p img {
+    margin-left: 40px;
+    margin-top: -3px;
+    width: 18px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+
+/* 最新消息 结束 */

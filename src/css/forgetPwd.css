@@ -1,0 +1,359 @@
+@charset "UTF-8";
+.clear,
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+td,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.clear,
+.clearfix:after {
+    clear: both
+}
+
+a {
+    outline: 0
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+input {
+    line-height: normal
+}
+
+button {
+    overflow: visible
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table
+}
+
+body {
+    font-size: 12px;
+    background: #293242
+}
+
+.zh-cn body {
+    font-family: STHeiti, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", arial
+}
+
+.zh-tw body {
+    font-family: "Microsoft JhengHei", "微軟正黑體", arial, helvetica, sans-serif
+}
+
+@-webkit-keyframes safe-circle {
+    0%,
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    40% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+    60% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg)
+    }
+}
+
+@keyframes safe-circle {
+    0%,
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    40% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+    60% {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg)
+    }
+}
+
+.fgpw-wrap {
+    position: relative;
+    width: 386px;
+    height: 464px;
+    margin: 150px auto 0;
+    padding-top: 106px;
+    background: #FFF;
+    border-radius: 10px
+}
+
+.fgpw-wrap.st-oops,
+.fgpw-wrap.st-success {
+    background-position: 0 0;
+    background-repeat: no-repeat
+}
+
+.fgpw-wrap .txt-wrap {
+    width: 304px;
+    margin: 0 auto
+}
+
+.fgpw-wrap.st-success {
+    background-image: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/email.svg);
+    background-image: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/email.png)\9
+}
+
+.fgpw-wrap.st-oops {
+    background-image: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/service.svg);
+    background-image: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/service.svg)\9
+}
+
+.lock-pic-wrap {
+    position: absolute;
+    top: -140px;
+    left: 50%;
+    margin-left: -106px;
+    width: 212px;
+    height: 235px;
+    background: url(../../static/images/memberCenter/safe.svg) 50% 0 no-repeat;
+    background: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/safe.png) 50% 0 no-repeat\9
+}
+
+.lock-pic-wrap .lock-line {
+    position: absolute;
+    left: 39px;
+    top: 49px;
+    width: 135px;
+    height: 135px;
+    background: url(../../static/images/memberCenter/safe-line.svg) 50% 0 no-repeat;
+    background: 0 0\9
+}
+
+.lock-pic-wrap .lock-line.motion {
+    -webkit-animation: safe-circle 8s infinite linear;
+    animation: safe-circle 8s infinite linear
+}
+
+.lock-pic-wrap .pic-oops,
+.lock-pic-wrap .pic-success {
+    position: absolute;
+    top: 47px;
+    left: 37px;
+    width: 140px;
+    height: 141px;
+    background: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/tick.svg) 50% 0 no-repeat;
+    background: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/tick.png) 50% 0 no-repeat\9
+}
+
+.lock-pic-wrap .pic-oops {
+    background: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/cross.svg) 50% 0 no-repeat;
+    background: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/cross.png) 50% 0 no-repeat\9
+}
+
+.result-wrap .pw-info-wrap {
+    height: 249px;
+    text-align: center
+}
+
+.result-wrap .pw-info-wrap .pw-st-title {
+    font-size: 40px;
+    line-height: 45px;
+    padding: 15px 0
+}
+
+.result-wrap .pw-info-wrap .result-info {
+    padding-top: 30px;
+    font-size: 17px;
+    line-height: 30px
+}
+
+.pw-info-wrap .pw-st-title {
+    margin-bottom: 20px;
+    color: #242424;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.pw-info-wrap .pw-ways {
+    margin-top: 15px;
+}
+
+.pw-info-wrap .pw-ways-title {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.pw-info-wrap .online-service-href {
+    color: red;
+    text-decoration: none;
+}
+
+.pw-info-wrap .pw-input-wrap {
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #ECF0F1
+}
+
+.pw-info-wrap .pw-input-wrap .pw-unit {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.pw-info-wrap .pw-input-wrap input {
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    text-indent: 10px;
+    padding-right: 10px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid;
+    color: #363439;
+    font-size: 15px;
+    line-height: 38px;
+    outline: 0
+}
+
+.pw-info-wrap .pw-input-wrap input:focus {
+    border: 1px solid #66AFE9;
+    box-shadow: rgba(102, 175, 233, .5) 0 0 10px, rgba(102, 175, 233, .5) 0 0 3px 1px inset
+}
+
+.pw-info-wrap .pw-input-wrap .pw-placeholder {
+    position: absolute;
+    cursor: text;
+    z-index: 2;
+    top: 9px;
+    left: 12px;
+    color: #ACACAC;
+    font-size: 15px
+}
+
+.pw-info-wrap .pw-input-wrap .pw-unit-chk {
+    float: right
+}
+
+.pw-info-wrap .pw-input-wrap .pw-unit-chk input {
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0 50px;
+    text-align: center;
+    margin-left: 0;
+    text-indent: 0
+}
+
+.pw-info-wrap .pw-input-wrap .pw-unit-chk .pw-placeholder {
+    width: 100%;
+    top: 14px;
+    left: 0;
+    text-align: center
+}
+
+.pw-info-wrap .pw-input-wrap .pw-unit-chk .vPic {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 3;
+    width: 60px;
+    cursor: pointer;
+}
+
+.pw-tips-wrap {
+    height: 72px;
+    text-align: center;
+    color: #7A7A7A;
+    padding-top: 15px
+}
+
+.pw-tips-wrap.error {
+    font-size: 15px;
+    color: #E34543
+}
+
+.pw-submit-wap {
+    margin-top: 20px;
+    padding-bottom: 30px
+}
+
+.pw-submit-wap .fgpw-submit {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #FFF;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #E34543;
+    border: none;
+    outline: 0;
+    transition: all .2s
+}
+
+.pw-submit-wap .fgpw-submit.close-btn {
+    width: 304px;
+    margin: 0 auto
+}
+
+.pw-submit-wap .fgpw-submit:focus,
+.pw-submit-wap .fgpw-submit:hover {
+    background: #1ECD97
+}
+
+.sec-pic-wrap {
+    width: 72px;
+    height: 42px;
+    padding-left: 48px;
+    margin: 0 auto;
+    background: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/secure.svg) no-repeat;
+    background: url(https://drp18.com/jsp/memb../../static/images/fg_pwd/secure.png) no-repeat\9
+}
+
+.sec-pic-wrap .sec-pic-txt {
+    padding-left: 5px;
+    border-left: 2px solid #EFEFEF
+}
+
+.sec-pic-wrap .sec-pic-txt p {
+    display: block;
+    font-size: 22px;
+    line-height: 18px;
+    color: #7A7A7A;
+    padding-top: 5px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.sec-pic-wrap .sec-pic-txt span {
+    color: #0B85CC
+}
