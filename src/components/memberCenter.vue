@@ -526,6 +526,7 @@
                                             <div class="bank_card_wrap">
                                                 <div class="bankcard_nav clearfix">
                                                     <div class="bankcard_title">选择汇款卡号</div>
+                                                    <i @click="payClose">x</i>
                                                     <div>
                                                         <span class='navBar' 
                                                                     :class="{bank_title_red: bank_card_nav_index == newindex }" 
@@ -1064,6 +1065,7 @@
                                         <th>登录设备信息</th>
                                         <th>注册时间</th>
                                         <th>已提现金额</th>
+                                        <th>返利金额</th>
                                         <th>日盈利</th>
                                         <th>总盈利</th>
                                         <!-- <th>下线返点</th>
@@ -1078,6 +1080,7 @@
                                             <td v-html="item.logininfo && item.logininfo != -1 ? item.logininfo : '从未登录'"></td>
                                             <td>{{item.ctime}}</td>
                                             <td>{{item.liushui}}</td>
+                                            <td>{{item.fanshui}}</td>
                                             <td>{{item.dayprofit}}</td>
                                             <td>{{item.totalprofit}}</td>
                                         </tr>
@@ -2808,7 +2811,7 @@ export default {
                         regBg1.style.color = "red";
                         that.Isval1 = false;
                         return false;
-                    } else if (data == 2) {
+                    } else if (res == 2) {
                         regBg1.innerHTML = "用户名已被注册！";
                         regBg1.style.color = "red";
                         that.Isval1 = false;
@@ -3172,8 +3175,6 @@ export default {
             that.tgdz = window.location.href.split("#")[0] + "#/register?id="+window.sessionStorage.getItem("username");
             // 下级代理
             that.subUser = res.son;
-            console.log(that.subUser);
-            
         }).catch(err=>{
             console.log(err)
         })

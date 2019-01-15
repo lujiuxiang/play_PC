@@ -685,7 +685,6 @@ export default {
                 this.Isval16
             ) {
                 this.submit = true;
-                console.log(this.submit);
             } else {
                 window, alert("请检查是否有错误的选项！");
             }

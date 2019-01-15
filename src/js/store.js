@@ -165,7 +165,6 @@ export default new Vuex.Store({
         },
         // 是否是代理登录
         newAgentInfo(state, data) {
-            console.log(data);
             if (data == 1) {
                 window.sessionStorage.setItem("agent", "true")
 

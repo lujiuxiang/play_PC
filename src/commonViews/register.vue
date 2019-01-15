@@ -689,16 +689,11 @@ export default {
                                 alert(res.msg)
                                 return
                             }else{
-                                window.sessionStorage.setItem(
-                                    "login_user",
-                                    res.sessionid
-                                ); //存储登录的用户名的sessionid
-                                window.sessionStorage.setItem(
-                                    "username",
-                                    res.username
-                                ); //存储登录的用户名
+                                window.sessionStorage.setItem("login_user",res.sessionid); //存储登录的用户名的sessionid
+                                window.sessionStorage.setItem("username",res.username); //存储登录的用户名
                                 window.sessionStorage.removeItem("usertype"); //清除试玩账号的usertype
-                                window.location.reload();
+                                // window.location.reload();
+                                that.$router.push({name: 'index'});
                             }
                         }).catch(err=>{
                             console.log(err)
